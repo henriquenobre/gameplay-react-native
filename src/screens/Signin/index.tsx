@@ -29,9 +29,9 @@ export function SignIn(){
 
       <View style={styles.content}>
         <Text style={styles.title}>
-          Organize {'\n'}
-          suas jogatinas {'\n'}
-          facilmente
+          Conecte-se {'\n'}
+          e organize suas{'\n'}
+          jogatinas
         </Text>
 
         <Text style={styles.subtitle}>
@@ -39,7 +39,9 @@ export function SignIn(){
           favoritos com seus amigos
         </Text>
 
-        <ButtonIcon/>
+        <ButtonIcon 
+        title="Entrar com Discord"
+        activeOpacity={0.5}/>
       </View>
     </View>
   )
